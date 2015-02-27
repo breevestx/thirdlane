@@ -1,0 +1,51 @@
+<phonebooks>
+    <contacts group_name="Park" editable="0" id="Park">
+        <contact id="701" first_name="Park" last_name="701" contact_type="special" account_id="701" subscribe_to="sip:701@doall.nexacomm.net">
+            <emails>
+                <email address="" label="" primary="1" />
+            </emails>
+            <actions>
+                <action id="parkpickup" dial="701" dial_prefix="" label="Pickup 701" name="Pickup 701" />
+                <action id="parkme" dial="#72" dial_prefix="" label="Park" name="Park" />
+         </actions>
+        </contact>
+       <contact id="702" first_name="Park" last_name="702" contact_type="special" account_id="702" subscribe_to="sip:702@doall.nexacomm.net">
+            <emails>
+                <email address="" label="" primary="1" />
+            </emails>
+            <actions>
+		  <action id="parkpickup" dial="702" dial_prefix="" label="Pickup 702" name="Pickup 702" />
+                <action id="parkme" dial="#72" dial_prefix="" label="Park" name="Park" />
+            </actions>
+        </contact>
+       <contact id="703" first_name="Park" last_name="703" contact_type="special" account_id="703" subscribe_to="sip:703@doall.nexacomm.net">
+            <emails>
+                <email address="" label="" primary="1" />
+            </emails>
+            <actions>
+		  <action id="parkpickup" dial="703" dial_prefix="" label="Pickup 703" name="Pickup 703" />
+                <action id="parkme" dial="#72" dial_prefix="" label="Park" name="Park" />
+            </actions>
+        </contact>
+       <contact id="704" first_name="Park" last_name="704" contact_type="special" account_id="704" subscribe_to="sip:704@doall.nexacomm.net">
+            <emails>
+                <email address="" label="" primary="1" />
+            </emails>
+            <actions>
+		  <action id="parkpickup" dial="704" dial_prefix="" label="Pickup 704" name="Pickup 704" />
+                <action id="parkme" dial="#72" dial_prefix="" label="Park" name="Park" />
+            </actions>
+        </contact>
+       <contact id="705" first_name="Park" last_name="705" contact_type="special" account_id="705" subscribe_to="sip:705@doall.nexacomm.net">
+            <emails>
+                <email address="" label="" primary="1" />
+            </emails>
+            <actions>
+		  <action id="parkpickup" dial="705" dial_prefix="" label="Pickup 705" name="Pickup 705" />
+                <action id="parkme" dial="#72" dial_prefix="" label="Park" name="Park" />
+            </actions>
+        </contact> 
+     </contacts>
+    <contacts group_name="Default" editable="0" id="Default">
+    </contacts>
+</phonebooks>

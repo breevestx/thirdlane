@@ -1,0 +1,11 @@
+[digium]
+description = Digium
+phone = D40
+phone = D70
+phone = d40-xml
+phone = d70-xml
+conf_file_phone = digium_phone.cfg
+conf_file_phone = digium-d70-phone-xml.cfg
+conf_file_phone = digium-d40-phone-xml.cfg
+conf_file_line = digium-line-xml.cfg
+

@@ -1,0 +1,43 @@
+[D40]
+label = Digium-D40
+lines = 1
+blf_template = 
+phone_template = digium_phone.cfg
+speeddial_template = 
+line_template = 
+output = ${mac}.conf
+command_1 = asterisk -rx "reload res_digium_phone.so"
+repeat_registrations = 1
+
+[D70]
+label = Digium-D70
+lines = 1
+blf_template = 
+phone_template = digium_phone.cfg
+speeddial_template = 
+line_template = 
+output = ${mac}.conf
+command_1 = asterisk -rx "reload res_digium_phone.so"
+repeat_registrations = 1
+
+[d40-xml]
+label = Digium D40 XML
+lines = 2
+blf_template = 
+phone_template = digium-d40-phone-xml.cfg
+speeddial_template = 
+line_template = digium-line-xml.cfg
+output = ${MAC}.cfg
+repeat_registrations = 0
+
+[d70-xml]
+label = Digium D70 XML
+lines = 6
+blf_template = 
+phone_template = digium-d70-phone-xml.cfg
+speeddial_template = 
+line_template = digium-line-xml.cfg
+output = ${MAC}.cfg
+repeat_registrations = 1
+command_1 = asterisk -rx "sip notify digium-check-cfg ${USERID}"
+
